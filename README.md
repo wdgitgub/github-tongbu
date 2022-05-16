@@ -10,6 +10,26 @@ git bash 基本命令
 在本地电脑的文件夹里初始化一个git的本地仓库（本地也要成立一个git本地暂存区仓库）
 git init
 
+
+
+git add README.md
+git commit -m "随便写一个版本号"
+
+添加到github网上这个仓库的 main 列表里
+git branch -M main
+或者
+添加到github网上这个仓库的 maste 列表里
+git branch -M master
+
+git remote add origin git@github.com:wdgitgub/9.git
+git push -u origin main
+
+
+
+
+
+
+
 (查看本地git暂存区文件包里文件的状态：是否属于暂存区还是没列入暂存区，还是原来的文件包里的文件)
 (git status -s)
 
